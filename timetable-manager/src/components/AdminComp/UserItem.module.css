@@ -1,0 +1,60 @@
+
+ .tasks {
+  display: flex;
+  
+  border-bottom: 1px solid #ccc;
+  
+  animation: meals-appear 1s ease-out forwards;
+  font-weight: bold;
+}
+
+.task:last-of-type {
+  border-bottom: none;
+}
+
+
+
+.loading{
+  text-align: center;
+  font-size: large;
+  color: rgb(0, 0, 0);
+  z-index: 35;
+
+}
+.errorMessage{
+  color: red;
+  font-size: large;
+  text-align: center;
+  
+}
+
+.tasks h3 {
+  margin: 0 0 0.25rem 0;
+  margin: 20px;
+}
+
+.mail {
+  font-style: italic;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.pswd {
+  margin-top: 0px;
+  font-style: italic;
+  color: #ad5502;
+  font-size: 1rem;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,44 @@
+.starting{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a290b;
+  
+}
+.starting a{
+  text-decoration: none;
+  color:antiquewhite ;
+}
+
+.btn{
+ 
+  align-self: center;
+  margin: 40px;
+  padding: 20px;
+  padding: 20px 100px 18px 100px;
+  color: rgb(246, 239, 239);
+  font-family: arial;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  background: rgb(201, 125, 125);
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+ 
+}
+
+.btn:hover{
+ background: #c06c6c;
+ 
+}
+
+
+.btn:active{
+  transform: scale(1.025);
+}

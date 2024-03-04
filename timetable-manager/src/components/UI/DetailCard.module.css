@@ -1,0 +1,49 @@
+.card {
+    -webkit-transition: ease all .3s;
+    transition: ease all .3s;
+    width: 500px;
+    height: auto;
+    
+  
+  }
+.warpper {
+    margin: 20px 10px 10px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    -webkit-box-shadow: 0 0 20px 10px rgba(25, 25, 25, 0.1);
+            box-shadow: 0 0 20px 10px rgba(25, 25, 25, 0.1);
+    -webkit-transition: ease all .3s;
+    transition: ease all .3s;
+    background-color: #fff;
+  }
+  
+  .warpper:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  
+  .warpper:hover .card_img {
+    height: 350px;
+  }
+  
+  .warpper .heart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+  }
+  
+  .warpper .heart svg, .warpper .heart path, .warpper .heart circle {
+    stroke: currentColor;
+    fill: transparent;
+  }
+  
+  .warpper .heart:hover {
+    cursor: pointer;
+  }
+  

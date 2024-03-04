@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  margin: 0;
+  background-color: bisque;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cont{
+  display:flex;
+  flex-grow: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+ 
+ 
+
+    /* display: grid;
+    grid-template-rows: [row1-start] 25px [row1-end row2-start] 25px [row2-end];
+  grid-template-columns: auto 50px auto;
+    grid-template-areas:
+    
+    "sidebar remain remain"
+    "sidebar remain remain"
+    "sidebar remain remain";
+       
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    align-items:center; */
 }
 
-.App-link {
-  color: #61dafb;
-}
+.sidebar{
+  flex: 50%;
+ 
+ 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.remain{
+  flex: 50%;
 }

@@ -1,0 +1,17 @@
+.btn{
+   
+    margin: 6px;
+    padding: 5px;
+    /* padding: 20px 100px 18px 100px; */
+    color: rgb(236, 234, 234);
+    font-family: arial;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align:left;
+    background-color: #5c2d01;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+   
+}
